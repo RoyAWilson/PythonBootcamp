@@ -1,1 +1,1 @@
-print('One, \'tow\',\"three\", four,\\five\\ once, \'I\' caught a fish \'//alive\\\\\'')
+print('One, \'tow\',\"three\", four,\\five\\\nonce, \'I\' caught a fish\n\t\t\'//alive\\\\\'')
