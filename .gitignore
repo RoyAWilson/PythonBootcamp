@@ -1,1 +1,6 @@
 PythonBootcamp.code-workspace
+_Notes_Resources/13.6_hillside_for_PIL_example.jpg
+Output/cropped_im.jpg
+Output/gauzian.jpg
+Output/greyscale.jpg
+.gitignore
