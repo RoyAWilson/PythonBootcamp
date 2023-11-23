@@ -15,18 +15,23 @@ def add_commas(numbers: int) -> str:
     for digits in numbers[:len(numbers)]:
         if count == 1:
             num_list.append(digits + ',')
-        # else:
-        #     num_list.append(digits)
         elif (count - 1) % 3 != 0:
             num_list.append(digits)
         else:
-            num_list.append(digits + ',')
+            num_list.append(digits)
+            num_list.append(',')
         count += 1
+    if num_list[-1] == ',':
+        num_list = num_list[:-1]
+        print(123)
     for items in num_list:
         # print(items)
         retstr += items
     return retstr
 
 
-x = add_commas(1000000)
+x = add_commas(10000000)
+
 print(x)
+
+# This isn't working need to reverse the number and add comma at every third space from back end
