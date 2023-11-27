@@ -8,6 +8,8 @@ import cv2
 from scipy.interpolate import UnivariateSpline
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+from ipywidgets import interact, interactive, fixed
+import ipywidgets as widgets
 
 # Set the path to the image file
 PATH = 'cricket.JPG'
@@ -82,8 +84,8 @@ def apply_cold(image):
     return image
 
 
-new_image = apply_cold(img)
-plt.imshow(new_image)
-plt.savefig('img_cold.jpg')
+# new_image = apply_cold(img)
+# plt.imshow(new_image)
+# plt.savefig('img_cold.jpg')
 
 # Now working can't see where I mistyped in the previous file.
